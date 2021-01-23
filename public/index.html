@@ -25,6 +25,7 @@
       </div>
     </div>
   </nav>
+  
   <div class="container">
     <h1 class="text-center">Welcome to Starwars Express!</h1>
     <h2 class="text-center">Search a character</h2>
@@ -47,6 +48,7 @@
       </div>
     </div>
   </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     const form = $('form')
@@ -56,6 +58,7 @@
     const age = $('#age')
     const role = $('#role')
     const forcePoints = $('#forcePoints')
+
     form.on('submit', e => {
       e.preventDefault()
       const searchTerm = searchInput.val()
